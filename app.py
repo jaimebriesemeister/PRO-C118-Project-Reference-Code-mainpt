@@ -15,7 +15,7 @@ def predict():
     review = request.json.get('customer_review')
     if not review:
         response = {'status' : 'error',
-                    'message' : 'Empty Review'}
+                    'message' : 'Avaliação em Branco'}
     
     else:
 
