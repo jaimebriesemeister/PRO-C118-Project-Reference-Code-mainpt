@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     //  obtendo a data usando o objeto Date () e convertendo-a em uma string
     let date = new Date()
-    let current_date = date.toDateString()
+    let current_date = date.toLocaleDateString('pt-BR', {weekday: 'short', year: 'numeric', month: 'short', day: 'numeric'})
 
     //  exibir a data na página HTML usando JQUERY e JS
     $('#date').text('Data: ' + current_date)
