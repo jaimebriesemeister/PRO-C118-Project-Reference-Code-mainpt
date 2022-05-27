@@ -7,7 +7,7 @@ $(document).ready(function(){
     let current_date = date.toDateString()
 
     //  exibir a data na página HTML usando JQUERY e JS
-    $('#date').text('Data : ' + current_date)
+    $('#date').text('Data: ' + current_date)
 
     
     let review = ""
